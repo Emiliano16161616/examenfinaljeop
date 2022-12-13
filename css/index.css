@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: rgb(163, 72, 12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+header a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+header h1{
+    color: greenyellow;
+    margin-left: 10px;
+}
+
+h2{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: #efefef;
+}
+
+body{
+    background-image: url(../imagenes/controles.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SECCION{
+    height: 550px;
+    width: 70%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.obj{
+    height: 100%;
+    display: flex;
+    flex-direction:column; 
+    justify-content: space-between;
+    align-items: center;
+    background-color:#efefef;
+    text-align: center;
+    padding: 5px 0;
+    width: 500px;
+    border-radius: 0.4em;
+}
+
+.obj p{
+    padding-bottom: 5px;
+    border-bottom: solid 2px;
+}
+
+.obj img {
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    background-color: #001835;
+    padding: 10px 0;
+    display: flex;
+}
+
+.papadiv{
+    height: 230px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d1{
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.d2{
+    height: 100%;
+}
+
+.d2 img{
+    height: 100%;
+}
+
+.d3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
