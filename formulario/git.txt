@@ -1,0 +1,33 @@
+instalar git
+
+crear tu archivo html en una carpeta
+
+ir a terminar - New terminal
+
+"git config --global user.name va el nombre "   //cls para limpiar la terminal
+
+"git config --global user.email va el correo de github "
+
+"git init"  // para indicar a git q esté pendiente de los cambios de nuestros archivos //usa una vez
+
+"git add ."     //el punto significa q me registra todo lo que está dentro de la carpeta
+
+"git commit -m comentario o nombre "  //sacamos una foto a los cambios y los registramos con ese nombre
+
+TRUCO: "git log --oneline" //para ver los cambios que hemos realizado
+
+para cualquier cambio que haga volver a ingresar
+"git add ."
+"git commit -m comentario o nombre "
+para guardar los cambios
+
+////////////////////////////////////////////////////////
+ahora entro a github y busco "crear nuevo repositorio" y copio la primera linea
+de donde está esto: or push an existing repository from the command line
+
+copio la segunda linea y la tercera respectivamente
+hago al autenticacion y listo
+
+despues de eso, si se hace otra modificacion y se quiere subir los cambios a github
+se vuelve a hacer los dos comandos antes dichos y luego se pone 
+"git push"

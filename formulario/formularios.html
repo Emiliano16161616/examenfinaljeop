@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <title>Document</title>
+</head>
+<body >
+    <div class="formulario"> <!--Div:Divisiones-->
+        <h1>Registrarse</h1>
+        <form  method="post" id="formulario">
+            <div class="username">
+                <input type="text" id="usuario" required name="lusuario">
+                <label for="" class="estorbo">Usuario</label>
+            </div>
+            <div class="contraseña">
+                <input type="password" id="password" required name="contraseña1">
+                <label for="" class="estorbo">Contraseña</label>
+            </div>
+            <div class="correo">
+                <input type="text"required="@" name="correo">
+                <label for="" class="estorbo">Correo</label>
+            </div>
+            <input type="submit" value="Iniciar" onclick="enviar()">
+            <div class="registrarse">
+            <a href="inicioses.html">Iniciar Sesion</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="../funciones js/jquery-3.6.1.min.js"></script>
+    <script src="../funciones js/validate.js"></script>
+    <script src="../funciones js/funciones.js"></script>
+</html>

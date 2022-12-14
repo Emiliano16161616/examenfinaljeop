@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: rgb(30, 12, 163);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+header a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+header h1{
+    color: yellow;
+    margin-left: 10px;
+}
+
+h2{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: yellow;
+}
+
+body{
+    background-image: url(../imagenes/54d6a5a24cd53.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SECCION{
+    height: 550px;
+    width: 70%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.obj{
+    height: 100%;
+    display: flex;
+    flex-direction:column; 
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    text-align: center;
+    padding: 5px 0;
+    width: 500px;
+    border-radius: 0.4em;
+}
+
+.obj p{
+    padding-bottom: 5px;
+    border-bottom: solid 2px;
+}
+
+.obj img {
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    background-color: azure;
+    padding: 10px 0;
+    display: flex;
+}
+
+.papadiv{
+    height: 230px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d1{
+    color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.d2{
+    height: 100%;
+}
+
+.d2 img{
+    height: 100%;
+}
+
+.d3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
